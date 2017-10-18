@@ -44,3 +44,10 @@ Started GET "/" for ::1 at 2017-10-17 17:05:52 -0700
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (2.2ms)
 Completed 200 OK in 528ms (Views: 501.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-17 17:15:18 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 510ms (Views: 480.1ms | ActiveRecord: 0.0ms)
